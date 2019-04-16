@@ -30,11 +30,11 @@ public class MainActivity extends AppCompatActivity{
 
             mTabLayout = (TabLayout) findViewById(R.id.tabLayout);
 
-            mTabLayout.addTab(mTabLayout.newTab().setCustomView(createTabView("메뉴얼")));
-            mTabLayout.addTab(mTabLayout.newTab().setCustomView(createTabView("속도")));
-            mTabLayout.addTab(mTabLayout.newTab().setCustomView(createTabView("경적")));
-            mTabLayout.addTab(mTabLayout.newTab().setCustomView(createTabView("커뮤니티")));
-            mTabLayout.addTab(mTabLayout.newTab().setCustomView(createTabView("프로필")));
+            mTabLayout.addTab(mTabLayout.newTab().setCustomView(createTabView("작동법")));
+            mTabLayout.addTab(mTabLayout.newTab().setCustomView(createTabView("대쉬보드")));
+            mTabLayout.addTab(mTabLayout.newTab().setCustomView(createTabView("경 적")));
+            mTabLayout.addTab(mTabLayout.newTab().setCustomView(createTabView("블루투스")));
+            mTabLayout.addTab(mTabLayout.newTab().setCustomView(createTabView("고객센터")));
 //
             mViewPager = (ViewPager) findViewById(R.id.pager_content);
             mContentsPagerAdapter = new ContentsPagerAdapter(getSupportFragmentManager(), mTabLayout.getTabCount());
