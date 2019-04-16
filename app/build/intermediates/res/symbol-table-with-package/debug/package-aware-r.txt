@@ -1009,14 +1009,19 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable horn
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable mini
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
+drawable nine
+drawable ninebot_one_outside02
+drawable ninebot_one_teaser
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -1035,6 +1040,7 @@ font abril_fatface
 font adamina
 font alegreya_sc
 font averia_gruesa_libre
+font nanumsquareregular
 id ALT
 id CTRL
 id FUNCTION
@@ -1122,6 +1128,8 @@ id icon
 id icon_group
 id ifRoom
 id image
+id imageButton
+id imageButton2
 id info
 id invisible
 id italic
@@ -1217,6 +1225,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textView
+id textView2
 id text_input_password_toggle
 id textinput_counter
 id textinput_error

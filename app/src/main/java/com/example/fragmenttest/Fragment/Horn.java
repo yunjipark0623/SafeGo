@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 import com.example.fragmenttest.R;
 
@@ -79,6 +80,7 @@ public class Horn extends Fragment {
     public void onDetach() {
         super.onDetach();
     }
+
 
     /**
      * This interface must be implemented by activities that contain this

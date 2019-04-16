@@ -8,7 +8,26 @@
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:gravity="center_horizontal"
+        android:text="한윤석: dbstjrtnals4@naver.com"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:gravity="center_horizontal"
+        android:text="박윤지: bearji0623@gmail.com"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:gravity="center_horizontal"
+        android:text="한승규: "
+        android:textSize="20sp" />
 
 </FrameLayout>

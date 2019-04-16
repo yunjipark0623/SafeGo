@@ -768,6 +768,10 @@
         "source": "/Users/yunji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d362754bd9f2e12552ca93627901c5d6/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
     },
     {
+        "merged": "/Users/yunji/SafeGo/app/build/intermediates/res/merged/debug/drawable-v24_mini.png.flat",
+        "source": "/Users/yunji/SafeGo/app/src/main/res/drawable-v24/mini.png"
+    },
+    {
         "merged": "/Users/yunji/SafeGo/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "/Users/yunji/SafeGo/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
@@ -900,6 +904,14 @@
         "source": "/Users/yunji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d362754bd9f2e12552ca93627901c5d6/res/drawable/abc_item_background_holo_light.xml"
     },
     {
+        "merged": "/Users/yunji/SafeGo/app/build/intermediates/res/merged/debug/drawable-v24_ninebot_one_teaser.jpeg.flat",
+        "source": "/Users/yunji/SafeGo/app/src/main/res/drawable-v24/ninebot_one_teaser.jpeg"
+    },
+    {
+        "merged": "/Users/yunji/SafeGo/app/build/intermediates/res/merged/debug/drawable-v24_horn.png.flat",
+        "source": "/Users/yunji/SafeGo/app/src/main/res/drawable-v24/horn.png"
+    },
+    {
         "merged": "/Users/yunji/SafeGo/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
         "source": "/Users/yunji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d362754bd9f2e12552ca93627901c5d6/res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
     },
@@ -974,6 +986,10 @@
     {
         "merged": "/Users/yunji/SafeGo/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_narrow_custom.xml.flat",
         "source": "/Users/yunji/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/b428169b0b17b7942253a6520bb6a01e/res/layout/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/Users/yunji/SafeGo/app/build/intermediates/res/merged/debug/drawable-v24_ninebot_one_outside02.jpg.flat",
+        "source": "/Users/yunji/SafeGo/app/src/main/res/drawable-v24/ninebot_one_outside02.jpg"
     },
     {
         "merged": "/Users/yunji/SafeGo/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_black_48dp.png.flat",
@@ -1346,6 +1362,10 @@
     {
         "merged": "/Users/yunji/SafeGo/app/build/intermediates/res/merged/debug/drawable_abc_btn_colored_material.xml.flat",
         "source": "/Users/yunji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d362754bd9f2e12552ca93627901c5d6/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/yunji/SafeGo/app/build/intermediates/res/merged/debug/drawable-v24_nine.png.flat",
+        "source": "/Users/yunji/SafeGo/app/src/main/res/drawable-v24/nine.png"
     },
     {
         "merged": "/Users/yunji/SafeGo/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
@@ -1934,6 +1954,10 @@
     {
         "merged": "/Users/yunji/SafeGo/app/build/intermediates/res/merged/debug/layout_abc_list_menu_item_icon.xml.flat",
         "source": "/Users/yunji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d362754bd9f2e12552ca93627901c5d6/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/yunji/SafeGo/app/build/intermediates/res/merged/debug/font_nanumsquareregular.ttf.flat",
+        "source": "/Users/yunji/SafeGo/app/src/main/res/font/nanumsquareregular.ttf"
     },
     {
         "merged": "/Users/yunji/SafeGo/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",

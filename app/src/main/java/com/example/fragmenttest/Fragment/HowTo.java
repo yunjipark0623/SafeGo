@@ -1,12 +1,14 @@
 package com.example.fragmenttest.Fragment;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 
 import com.example.fragmenttest.R;
 
@@ -79,6 +81,14 @@ public class HowTo extends Fragment {
     public void onDetach() {
         super.onDetach();
     }
+//
+//    public void nine(View v) {
+//        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.segway.com/media/1959/25265-00001_ac-one-s1-um_en_web.pdf"));
+//    }
+//
+//    public void mini(View v) {
+//        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.segway.com/media/2271/25521-00001_ab-miniplus-user-manual-en.pdf"));
+//    }
 
     /**
      * This interface must be implemented by activities that contain this

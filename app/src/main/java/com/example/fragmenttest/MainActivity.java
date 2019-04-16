@@ -1,6 +1,7 @@
 package com.example.fragmenttest;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
@@ -9,6 +10,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import com.example.fragmenttest.Fragment.HowTo;
@@ -21,6 +23,14 @@ public class MainActivity extends AppCompatActivity{
 
         private ViewPager mViewPager;
         private ContentsPagerAdapter mContentsPagerAdapter;
+
+//        public void nine(View v) {
+//            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.segway.com/media/1959/25265-00001_ac-one-s1-um_en_web.pdf"));
+//        }
+//
+//        public void mini(View v) {
+//            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.segway.com/media/2271/25521-00001_ab-miniplus-user-manual-en.pdf"));
+//        }
 
         @Override
         protected void onCreate(Bundle savedInstanceState) {
