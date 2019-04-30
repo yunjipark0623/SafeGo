@@ -8,7 +8,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageButton;
+import android.widget.ImageView;
 
 import com.example.fragmenttest.R;
 
@@ -51,20 +51,60 @@ public class HowTo extends Fragment {
         return fragment;
     }
 
-    @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+//        ViewGroup rootView = (ViewGroup)inflater.inflate(R.layout.fragment_how_to,container,false);
+//
+//        ImageView ImageView = (ImageView) rootView.findViewById(R.id.imageButton);
+//        ImageView ImageView2 = (ImageView) rootView.findViewById(R.id.imageButton2);
+//
+//        ImageView.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(("http://www.seqway.com/media/1959/25265-00001_ac-ones1-um_web.pdf")));
+//                startActivity(myIntent);
+//            }
+//        });
+//
+//        ImageView2.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(("http://www.seqway.com/media/1959/25265-00001_ac-ones1-um_web.pdf")));
+//                startActivity(myIntent);
+//            }
+//        });
+//        return rootView;
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_how_to, container, false);
+//        return inflater.inflate(R.layout.fragment_how_to, container, false);
+        ViewGroup rootView = (ViewGroup)inflater.inflate(R.layout.fragment_how_to,container,false);
+
+        ImageView ImageView = (ImageView) rootView.findViewById(R.id.imageButton);
+        ImageView ImageView2 = (ImageView) rootView.findViewById(R.id.imageButton2);
+
+        ImageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(("http://www.seqway.com/media/1959/25265-00001_ac-ones1-um_web.pdf")));
+                startActivity(myIntent);
+            }
+        });
+
+        ImageView2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(("http://www.seqway.com/media/1959/25265-00001_ac-ones1-um_web.pdf")));
+                startActivity(myIntent);
+            }
+        });
+        return rootView;
     }
 
     // TODO: Rename method, update argument and hook method into UI event
@@ -81,13 +121,15 @@ public class HowTo extends Fragment {
     public void onDetach() {
         super.onDetach();
     }
-//
-//    public void nine(View v) {
-//        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.segway.com/media/1959/25265-00001_ac-one-s1-um_en_web.pdf"));
+
+//    public void ImageView(View view) {
+//        Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(("http://www.seqway.com/media/1959/25265-00001_ac-ones1-um_web.pdf")));
+//        startActivity(myIntent);
 //    }
 //
-//    public void mini(View v) {
-//        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.segway.com/media/2271/25521-00001_ab-miniplus-user-manual-en.pdf"));
+//    public void ImageView2(View view){
+//        Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(("http://seqway.com/media/2271/25521-00001_ab-miniplus-user-manual-en.pdf")));
+//        startActivity(myIntent);
 //    }
 
     /**
