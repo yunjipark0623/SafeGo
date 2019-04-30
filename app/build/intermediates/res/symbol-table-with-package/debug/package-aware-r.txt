@@ -1041,6 +1041,7 @@ drawable round_contact_support_black_48
 drawable round_dashboard_black_48
 drawable round_star_black_48
 drawable round_volume_up_black_48
+drawable splash
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 font abril_fatface
@@ -1138,7 +1139,6 @@ id ifRoom
 id image
 id imageButton
 id imageButton2
-id imageView
 id imageView2
 id info
 id invisible
