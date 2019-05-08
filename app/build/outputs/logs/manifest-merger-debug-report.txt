@@ -1,180 +1,188 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml:2:1-24:12
-MERGED from [com.android.support:design:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/d0bd4555ca37f0b7b6c72837e322f70f/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d362754bd9f2e12552ca93627901c5d6/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/yunji/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/bca9dcfdda03eab6aaafb3d7eb67388f/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-v4:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/778d1331eadb7c2411e24b67738cce13/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/851d418c6d0dfec4f93c87a65e69c924/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/984ae6773105ab8973be4d38e32ba3ec/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/819bc0cc2426ff187436d3aa482b64c9/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/ae954470e08f38c64bcd1ef880f4a2a5/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/6ca78e0d0eef861942ec1124c151b70f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/1ec7ecd730fec33e9d644715eca3893a/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/8eca3ec6ca6e0b72bd5f08ce36bdee96/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/b428169b0b17b7942253a6520bb6a01e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/d119dbdcf0dd2a65a48e5e49bbab067d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/89ebc2f3f0d7cb444c2eb8fcfdc0ac87/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/8cf7be5b10010ad47575c83487e675dc/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/aa2f0d6c8ff4b08a27018c7441f1d30c/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/cc4b1492649b09dc9cfe722302243cca/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/4a93b6ca5d3ad460f89169fb4e14d949/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/d925819f1175ba7482e50900c5bf0a2f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/03308abcee8a2eb0c1b64993aacd5396/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/34a7de833460f912ea550f3668f86854/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/762ad2840a2ed7ec0084cbb616b88958/AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/c67b6238496671f606cde9e635d5eccd/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/e73998ac4a30d96f223d8bf7c4a449e4/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/yunji/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/94bb029ff46be72b7c9ac3a2bc5cbcf4/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/56709b9d33d298b619e3b880bfa882e8/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/c4c6fcd3b7a3884fbc9a098fd4006367/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/7f5aed6843c8a516866463b4583aaced/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/yunji/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/8201898cc8578991be3db20f59f82e47/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/e627b4379390dfdecfc5520ca785ecaf/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/yunji/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/535df56d026e5bbdb2a7ccac051d5c73/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/yunji/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/14418c5cadf0d974dbe4aa213b7e8bdd/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] /Users/yunji/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/1a93d362412546173f545f68c51c7857/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml:2:1-24:12
+ADDED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml:2:1-27:12
+MERGED from [com.android.support:design:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/9e43914bf2bbc6d5e95d599a4a23addf/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/yunji/.gradle/caches/transforms-2/files-2.1/7eca56daf817f634b94c1e3b32d5cf47/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/f815af24d71fd0b3ccbc2a00fb1e4d78/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/07d4e9899feabe9aeb6281ece88d65fd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/6853b064e411822cc147775abe6bced2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/80e4e5ea5dc4b91e3e28820d2ed4ea4a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/e3a71557b5cd901b6ee16b164fc8b3ef/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/62a39e0da1e1661348648992f3b150e3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/9e46044be428f7fe3f5392495e839302/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/195df40eaf08e35f59cdae33b89d75d3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/79c43f9bd74339c8fdb38bb2b875c051/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/c6e20b1bb7e6be3f4141bd3a1a4f9b11/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/657811e64bda269d70cc09bccd22d917/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/3005447cd3dc10362079c347f9d43d45/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/e48d9d0ebf2390b54fe24b56a613596c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/bd4e2247496df2fa624a7ca3df7ed000/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/e35fc188f4a2ed37a9f91579993abbf5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/a0af02f539f3b095064692cc9cabe5b5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/eeb0da32fb034a6e657d306859f370d0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/5c06c4512498fede3103f7a6e1b785bc/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/b65f0d45a4c0312f1cbd26d241692a6b/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/44e52c5c8c90108274991bfade803ce0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/c7c5f8477749e718b1dcaafdff03eda8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/yunji/.gradle/caches/transforms-2/files-2.1/fcb3a0534b18a83727bb3a0004f1a477/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/8b51d913110860df46cf774afb072c30/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/83439b88c3eca0f29d23b445159b0faf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/9fd28e762403b43d5bb2f7e931a23fb7/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/yunji/.gradle/caches/transforms-2/files-2.1/a4af6fd19f24eccee98cc15c0da6a573/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/ba37812513aad3d648fa7827c5633b37/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/yunji/.gradle/caches/transforms-2/files-2.1/d7fabda853b238baa071bd2694b1440b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/yunji/.gradle/caches/transforms-2/files-2.1/9876e70c16dd051fa27a1a2029cd8179/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/yunji/.gradle/caches/transforms-2/files-2.1/7b8c1f327606a9b4f469fc13920014f5/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml:2:1-27:12
 	package
-		ADDED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml:3:5-39
-		INJECTED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml:3:5-39
+		INJECTED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml
-		ADDED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml:2:1-24:12
-		INJECTED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml
-		ADDED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml:2:1-24:12
-		INJECTED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml:6:22-78
 application
-ADDED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml:5:5-22:19
-MERGED from [com.android.support:design:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/d0bd4555ca37f0b7b6c72837e322f70f/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/d0bd4555ca37f0b7b6c72837e322f70f/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/yunji/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/bca9dcfdda03eab6aaafb3d7eb67388f/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/yunji/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/bca9dcfdda03eab6aaafb3d7eb67388f/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-compat:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/34a7de833460f912ea550f3668f86854/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/34a7de833460f912ea550f3668f86854/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/762ad2840a2ed7ec0084cbb616b88958/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/762ad2840a2ed7ec0084cbb616b88958/AndroidManifest.xml:22:5-23:19
+ADDED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml:8:5-25:19
+MERGED from [com.android.support:design:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/9e43914bf2bbc6d5e95d599a4a23addf/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/9e43914bf2bbc6d5e95d599a4a23addf/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/yunji/.gradle/caches/transforms-2/files-2.1/7eca56daf817f634b94c1e3b32d5cf47/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/yunji/.gradle/caches/transforms-2/files-2.1/7eca56daf817f634b94c1e3b32d5cf47/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/5c06c4512498fede3103f7a6e1b785bc/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/5c06c4512498fede3103f7a6e1b785bc/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/b65f0d45a4c0312f1cbd26d241692a6b/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/b65f0d45a4c0312f1cbd26d241692a6b/AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/34a7de833460f912ea550f3668f86854/AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/5c06c4512498fede3103f7a6e1b785bc/AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml:11:9-65
+		ADDED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml:14:9-65
 activity#com.example.fragmenttest.MainActivity
-ADDED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml:12:9-18:20
+ADDED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml:15:9-21:20
 	android:name
-		ADDED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml:12:19-47
+		ADDED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml:15:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml:13:13-17:29
+ADDED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml:14:17-69
+ADDED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml:14:25-66
+		ADDED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml:16:17-77
+ADDED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml:16:27-74
+		ADDED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml:19:27-74
 meta-data#preloaded_fonts
-ADDED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml:19:9-21:57
+ADDED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml:22:9-24:57
 	android:resource
-		ADDED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml:21:13-54
+		ADDED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml:24:13-54
 	android:name
-		ADDED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml:20:13-43
+		ADDED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml:23:13-43
 uses-sdk
-INJECTED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml
-INJECTED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:design:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/d0bd4555ca37f0b7b6c72837e322f70f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/d0bd4555ca37f0b7b6c72837e322f70f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d362754bd9f2e12552ca93627901c5d6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d362754bd9f2e12552ca93627901c5d6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/yunji/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/bca9dcfdda03eab6aaafb3d7eb67388f/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/yunji/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/bca9dcfdda03eab6aaafb3d7eb67388f/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-v4:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/778d1331eadb7c2411e24b67738cce13/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/778d1331eadb7c2411e24b67738cce13/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/851d418c6d0dfec4f93c87a65e69c924/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/851d418c6d0dfec4f93c87a65e69c924/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/984ae6773105ab8973be4d38e32ba3ec/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/984ae6773105ab8973be4d38e32ba3ec/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/819bc0cc2426ff187436d3aa482b64c9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/819bc0cc2426ff187436d3aa482b64c9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/ae954470e08f38c64bcd1ef880f4a2a5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/ae954470e08f38c64bcd1ef880f4a2a5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/6ca78e0d0eef861942ec1124c151b70f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/6ca78e0d0eef861942ec1124c151b70f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/1ec7ecd730fec33e9d644715eca3893a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/1ec7ecd730fec33e9d644715eca3893a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/8eca3ec6ca6e0b72bd5f08ce36bdee96/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/8eca3ec6ca6e0b72bd5f08ce36bdee96/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/b428169b0b17b7942253a6520bb6a01e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/b428169b0b17b7942253a6520bb6a01e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/d119dbdcf0dd2a65a48e5e49bbab067d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/d119dbdcf0dd2a65a48e5e49bbab067d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/89ebc2f3f0d7cb444c2eb8fcfdc0ac87/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/89ebc2f3f0d7cb444c2eb8fcfdc0ac87/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/8cf7be5b10010ad47575c83487e675dc/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/8cf7be5b10010ad47575c83487e675dc/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/aa2f0d6c8ff4b08a27018c7441f1d30c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/aa2f0d6c8ff4b08a27018c7441f1d30c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/cc4b1492649b09dc9cfe722302243cca/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/cc4b1492649b09dc9cfe722302243cca/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/4a93b6ca5d3ad460f89169fb4e14d949/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/4a93b6ca5d3ad460f89169fb4e14d949/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/d925819f1175ba7482e50900c5bf0a2f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/d925819f1175ba7482e50900c5bf0a2f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/03308abcee8a2eb0c1b64993aacd5396/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/03308abcee8a2eb0c1b64993aacd5396/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/34a7de833460f912ea550f3668f86854/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/34a7de833460f912ea550f3668f86854/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/762ad2840a2ed7ec0084cbb616b88958/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/762ad2840a2ed7ec0084cbb616b88958/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/c67b6238496671f606cde9e635d5eccd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/c67b6238496671f606cde9e635d5eccd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/e73998ac4a30d96f223d8bf7c4a449e4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/e73998ac4a30d96f223d8bf7c4a449e4/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/yunji/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/94bb029ff46be72b7c9ac3a2bc5cbcf4/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/yunji/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/94bb029ff46be72b7c9ac3a2bc5cbcf4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/56709b9d33d298b619e3b880bfa882e8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/56709b9d33d298b619e3b880bfa882e8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/c4c6fcd3b7a3884fbc9a098fd4006367/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/c4c6fcd3b7a3884fbc9a098fd4006367/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/7f5aed6843c8a516866463b4583aaced/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/7f5aed6843c8a516866463b4583aaced/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/yunji/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/8201898cc8578991be3db20f59f82e47/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/yunji/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/8201898cc8578991be3db20f59f82e47/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/e627b4379390dfdecfc5520ca785ecaf/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/yunji/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/e627b4379390dfdecfc5520ca785ecaf/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/yunji/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/535df56d026e5bbdb2a7ccac051d5c73/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/yunji/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/535df56d026e5bbdb2a7ccac051d5c73/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/yunji/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/14418c5cadf0d974dbe4aa213b7e8bdd/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/yunji/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/14418c5cadf0d974dbe4aa213b7e8bdd/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/yunji/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/1a93d362412546173f545f68c51c7857/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/yunji/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/1a93d362412546173f545f68c51c7857/AndroidManifest.xml:20:5-44
-INJECTED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml
-INJECTED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml
+INJECTED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml
+INJECTED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/9e43914bf2bbc6d5e95d599a4a23addf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/9e43914bf2bbc6d5e95d599a4a23addf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/yunji/.gradle/caches/transforms-2/files-2.1/7eca56daf817f634b94c1e3b32d5cf47/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/yunji/.gradle/caches/transforms-2/files-2.1/7eca56daf817f634b94c1e3b32d5cf47/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/f815af24d71fd0b3ccbc2a00fb1e4d78/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/f815af24d71fd0b3ccbc2a00fb1e4d78/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/07d4e9899feabe9aeb6281ece88d65fd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/07d4e9899feabe9aeb6281ece88d65fd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/6853b064e411822cc147775abe6bced2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/6853b064e411822cc147775abe6bced2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/80e4e5ea5dc4b91e3e28820d2ed4ea4a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/80e4e5ea5dc4b91e3e28820d2ed4ea4a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/e3a71557b5cd901b6ee16b164fc8b3ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/e3a71557b5cd901b6ee16b164fc8b3ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/62a39e0da1e1661348648992f3b150e3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/62a39e0da1e1661348648992f3b150e3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/9e46044be428f7fe3f5392495e839302/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/9e46044be428f7fe3f5392495e839302/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/195df40eaf08e35f59cdae33b89d75d3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/195df40eaf08e35f59cdae33b89d75d3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/79c43f9bd74339c8fdb38bb2b875c051/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/79c43f9bd74339c8fdb38bb2b875c051/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/c6e20b1bb7e6be3f4141bd3a1a4f9b11/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/c6e20b1bb7e6be3f4141bd3a1a4f9b11/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/657811e64bda269d70cc09bccd22d917/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/657811e64bda269d70cc09bccd22d917/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/3005447cd3dc10362079c347f9d43d45/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/3005447cd3dc10362079c347f9d43d45/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/e48d9d0ebf2390b54fe24b56a613596c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/e48d9d0ebf2390b54fe24b56a613596c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/bd4e2247496df2fa624a7ca3df7ed000/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/bd4e2247496df2fa624a7ca3df7ed000/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/e35fc188f4a2ed37a9f91579993abbf5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/e35fc188f4a2ed37a9f91579993abbf5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/a0af02f539f3b095064692cc9cabe5b5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/a0af02f539f3b095064692cc9cabe5b5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/eeb0da32fb034a6e657d306859f370d0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/eeb0da32fb034a6e657d306859f370d0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/5c06c4512498fede3103f7a6e1b785bc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/5c06c4512498fede3103f7a6e1b785bc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/b65f0d45a4c0312f1cbd26d241692a6b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/b65f0d45a4c0312f1cbd26d241692a6b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/44e52c5c8c90108274991bfade803ce0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/44e52c5c8c90108274991bfade803ce0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/c7c5f8477749e718b1dcaafdff03eda8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/c7c5f8477749e718b1dcaafdff03eda8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/yunji/.gradle/caches/transforms-2/files-2.1/fcb3a0534b18a83727bb3a0004f1a477/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/yunji/.gradle/caches/transforms-2/files-2.1/fcb3a0534b18a83727bb3a0004f1a477/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/8b51d913110860df46cf774afb072c30/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/8b51d913110860df46cf774afb072c30/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/83439b88c3eca0f29d23b445159b0faf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/83439b88c3eca0f29d23b445159b0faf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/9fd28e762403b43d5bb2f7e931a23fb7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/9fd28e762403b43d5bb2f7e931a23fb7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/yunji/.gradle/caches/transforms-2/files-2.1/a4af6fd19f24eccee98cc15c0da6a573/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/yunji/.gradle/caches/transforms-2/files-2.1/a4af6fd19f24eccee98cc15c0da6a573/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/ba37812513aad3d648fa7827c5633b37/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/ba37812513aad3d648fa7827c5633b37/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/yunji/.gradle/caches/transforms-2/files-2.1/d7fabda853b238baa071bd2694b1440b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/yunji/.gradle/caches/transforms-2/files-2.1/d7fabda853b238baa071bd2694b1440b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/yunji/.gradle/caches/transforms-2/files-2.1/9876e70c16dd051fa27a1a2029cd8179/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/yunji/.gradle/caches/transforms-2/files-2.1/9876e70c16dd051fa27a1a2029cd8179/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/yunji/.gradle/caches/transforms-2/files-2.1/7b8c1f327606a9b4f469fc13920014f5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/yunji/.gradle/caches/transforms-2/files-2.1/7b8c1f327606a9b4f469fc13920014f5/AndroidManifest.xml:20:5-44
+INJECTED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml
+INJECTED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml
-		ADDED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml
-		ADDED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/yunji/SafeGo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yunji/Downloads/SafeGo2 2/app/src/main/AndroidManifest.xml

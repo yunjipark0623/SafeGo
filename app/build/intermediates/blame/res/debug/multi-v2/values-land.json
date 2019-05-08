@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/yunji/SafeGo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/Users/yunji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/d0bd4555ca37f0b7b6c72837e322f70f/res/values-land/values-land.xml",
+                    "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                },
+                {
+                    "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/9e43914bf2bbc6d5e95d599a4a23addf/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,16 +30,6 @@
                         "endLines": "8",
                         "endColumns": "10",
                         "endOffsets": "431"
-                    }
-                },
-                {
-                    "source": "/Users/yunji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d362754bd9f2e12552ca93627901c5d6/res/values-land/values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,125,196",
-                        "endColumns": "69,70,67",
-                        "endOffsets": "120,191,259"
                     }
                 }
             ]

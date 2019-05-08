@@ -1103,6 +1103,7 @@ id container
 id content
 id contentPanel
 id coordinator
+id current_speed
 id custom
 id customPanel
 id decor_content_parent
@@ -1129,6 +1130,7 @@ id fill_vertical
 id filled
 id fixed
 id forever
+id frameLayout
 id ghost_view
 id gone
 id group_divider
@@ -1154,6 +1156,7 @@ id line3
 id listMode
 id list_item
 id masked
+id max_speed
 id media_actions
 id message
 id middle
@@ -1238,6 +1241,7 @@ id textSpacerNoTitle
 id textStart
 id textView
 id textView2
+id textView3
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1402,14 +1406,19 @@ string character_counter_content_description
 string character_counter_pattern
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string gps_disabled
 string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string mtrl_chip_close_icon_content_description
+string noti_id
+string notification
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string please_enable_gps
+string running
 string search_menu_title
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat

@@ -2,87 +2,242 @@
 <instant-run
     abi="x86"
     api-level="24"
-    build-mode="COLD"
+    build-mode="FULL"
     density="420dpi"
     format="10"
-    ir-eligibility="METHOD_DELETED"
-    plugin-version="3.3.2"
-    timestamp="1556603947463"
-    token="-4318826024213332733"
-    verifier="COLD_SWAP_REQUESTED" >
+    plugin-version="3.4.0"
+    timestamp="1557244905853"
+    token="6539567850303591815"
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="135" />
+        duration="2072" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="39" />
+        duration="243" />
     <task
         name="verifier"
-        duration="2" />
+        duration="163" />
 
     <artifact
-        location="/Users/yunji/SafeGo/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        location="/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/yunji/SafeGo/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+        location="/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
         type="SPLIT_MAIN" />
+    <artifact
+        location="/Users/yunji/Downloads/SafeGo2 2/D:\Capston\SafeGo\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/yunji/Downloads/SafeGo2 2/D:\SafeGo2\SafeGo2\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/yunji/Downloads/SafeGo2 2/D:\Capston\SafeGo\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/yunji/Downloads/SafeGo2 2/D:\SafeGo2\SafeGo2\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/yunji/Downloads/SafeGo2 2/D:\SafeGo2\SafeGo2\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/yunji/Downloads/SafeGo2 2/D:\SafeGo2\SafeGo2\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/yunji/Downloads/SafeGo2 2/D:\Capston\SafeGo\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/yunji/Downloads/SafeGo2 2/D:\Capston\SafeGo\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/yunji/Downloads/SafeGo2 2/D:\Capston\SafeGo\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/yunji/Downloads/SafeGo2 2/D:\SafeGo2\SafeGo2\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/yunji/Downloads/SafeGo2 2/D:\Capston\SafeGo\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/yunji/Downloads/SafeGo2 2/D:\SafeGo2\SafeGo2\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/yunji/Downloads/SafeGo2 2/D:\Capston\SafeGo\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/yunji/Downloads/SafeGo2 2/D:\SafeGo2\SafeGo2\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/yunji/Downloads/SafeGo2 2/D:\SafeGo2\SafeGo2\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/yunji/Downloads/SafeGo2 2/D:\SafeGo2\SafeGo2\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/yunji/Downloads/SafeGo2 2/D:\SafeGo2\SafeGo2\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/yunji/Downloads/SafeGo2 2/D:\Capston\SafeGo\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/yunji/Downloads/SafeGo2 2/D:\Capston\SafeGo\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/yunji/Downloads/SafeGo2 2/D:\SafeGo2\SafeGo2\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/yunji/Downloads/SafeGo2 2/D:\Capston\SafeGo\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/yunji/Downloads/SafeGo2 2/D:\SafeGo2\SafeGo2\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/yunji/Downloads/SafeGo2 2/D:\Capston\SafeGo\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1556602818577"
+        timestamp="1557244905853"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/yunji/SafeGo/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            location="/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/yunji/SafeGo/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            location="/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/yunji/SafeGo/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            location="/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/yunji/SafeGo/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            location="/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/yunji/SafeGo/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            location="/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/yunji/SafeGo/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            location="/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/yunji/SafeGo/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            location="/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/yunji/SafeGo/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            location="/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/yunji/SafeGo/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+            location="/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
         <artifact
-            location="/Users/yunji/SafeGo/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            location="/Users/yunji/Downloads/SafeGo2 2/D:\Capston\SafeGo\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/yunji/SafeGo/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            location="/Users/yunji/Downloads/SafeGo2 2/D:\SafeGo2\SafeGo2\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/yunji/SafeGo/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="METHOD_DELETED"
-        timestamp="1556603947463"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/yunji/SafeGo/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            location="/Users/yunji/Downloads/SafeGo2 2/D:\Capston\SafeGo\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/yunji/SafeGo/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
+            location="/Users/yunji/Downloads/SafeGo2 2/D:\SafeGo2\SafeGo2\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/yunji/Downloads/SafeGo2 2/D:\SafeGo2\SafeGo2\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/yunji/Downloads/SafeGo2 2/D:\SafeGo2\SafeGo2\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/yunji/Downloads/SafeGo2 2/D:\Capston\SafeGo\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/yunji/Downloads/SafeGo2 2/D:\Capston\SafeGo\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/yunji/Downloads/SafeGo2 2/D:\Capston\SafeGo\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/yunji/Downloads/SafeGo2 2/D:\SafeGo2\SafeGo2\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/yunji/Downloads/SafeGo2 2/D:\Capston\SafeGo\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/yunji/Downloads/SafeGo2 2/D:\SafeGo2\SafeGo2\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/yunji/Downloads/SafeGo2 2/D:\Capston\SafeGo\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/yunji/Downloads/SafeGo2 2/D:\SafeGo2\SafeGo2\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/yunji/Downloads/SafeGo2 2/D:\SafeGo2\SafeGo2\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/yunji/Downloads/SafeGo2 2/D:\SafeGo2\SafeGo2\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/yunji/Downloads/SafeGo2 2/D:\SafeGo2\SafeGo2\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/yunji/Downloads/SafeGo2 2/D:\Capston\SafeGo\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/yunji/Downloads/SafeGo2 2/D:\Capston\SafeGo\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/yunji/Downloads/SafeGo2 2/D:\SafeGo2\SafeGo2\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/yunji/Downloads/SafeGo2 2/D:\Capston\SafeGo\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/yunji/Downloads/SafeGo2 2/D:\SafeGo2\SafeGo2\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/yunji/Downloads/SafeGo2 2/D:\Capston\SafeGo\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
     </build>
 
 </instant-run>
