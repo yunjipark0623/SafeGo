@@ -12,12 +12,12 @@
         "source": "/Users/yunji/Downloads/SafeGo2 2/app/src/main/res/drawable-v24/mini.png"
     },
     {
-        "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
-        "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/drawable_ic_mtrl_chip_checked_circle.xml.flat",
         "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/9e43914bf2bbc6d5e95d599a4a23addf/res/drawable/ic_mtrl_chip_checked_circle.xml"
+    },
+    {
+        "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_design_ic_visibility_off.png.flat",
@@ -92,12 +92,12 @@
         "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/5c06c4512498fede3103f7a6e1b785bc/res/drawable/notification_bg_low.xml"
     },
     {
-        "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/anim_abc_slide_out_bottom.xml.flat",
-        "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/res/anim/abc_slide_out_bottom.xml"
-    },
-    {
         "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/res/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/anim_abc_slide_out_bottom.xml.flat",
+        "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/res/anim/abc_slide_out_bottom.xml"
     },
     {
         "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/drawable-v24_round_bluetooth_black_48.png.flat",
@@ -136,12 +136,12 @@
         "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/5c06c4512498fede3103f7a6e1b785bc/res/layout-v21/notification_action_tombstone.xml"
     },
     {
-        "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/drawable_abc_tab_indicator_material.xml.flat",
-        "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/res/drawable/abc_tab_indicator_material.xml"
-    },
-    {
         "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/res/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/drawable_abc_tab_indicator_material.xml.flat",
+        "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/res/drawable/abc_tab_indicator_material.xml"
     },
     {
         "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -176,12 +176,12 @@
         "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/res/color/abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
-        "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
         "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/color_abc_tint_seek_thumb.xml.flat",
@@ -196,12 +196,12 @@
         "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/9e43914bf2bbc6d5e95d599a4a23addf/res/layout/design_layout_snackbar_include.xml"
     },
     {
-        "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
-        "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_black_48dp.png.flat",
         "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/res/drawable-xhdpi-v4/abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
+        "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/color_mtrl_tabs_icon_color_selector_colored.xml.flat",
@@ -220,20 +220,20 @@
         "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/9e43914bf2bbc6d5e95d599a4a23addf/res/layout/mtrl_layout_snackbar.xml"
     },
     {
-        "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/layout_select_dialog_singlechoice_material.xml.flat",
-        "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/res/layout/select_dialog_singlechoice_material.xml"
-    },
-    {
         "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/color-v23_abc_tint_btn_checkable.xml.flat",
-        "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/res/color-v23/abc_tint_btn_checkable.xml"
+        "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/layout_select_dialog_singlechoice_material.xml.flat",
+        "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/res/layout/select_dialog_singlechoice_material.xml"
     },
     {
         "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "/Users/yunji/Downloads/SafeGo2 2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/color-v23_abc_tint_btn_checkable.xml.flat",
+        "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/res/color-v23/abc_tint_btn_checkable.xml"
     },
     {
         "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/layout_abc_alert_dialog_title_material.xml.flat",
@@ -296,12 +296,12 @@
         "source": "/Users/yunji/Downloads/SafeGo2 2/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_launcher_background.png"
     },
     {
-        "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
-        "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png"
-    },
-    {
         "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/drawable-v24_round_star_black_48.png.flat",
         "source": "/Users/yunji/Downloads/SafeGo2 2/app/src/main/res/drawable-v24/round_star_black_48.png"
+    },
+    {
+        "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png"
     },
     {
         "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
@@ -340,12 +340,12 @@
         "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/res/drawable/abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_design_ic_visibility_off.png.flat",
         "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/9e43914bf2bbc6d5e95d599a4a23addf/res/drawable-mdpi-v4/design_ic_visibility_off.png"
+    },
+    {
+        "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/interpolator-v21_mtrl_fast_out_slow_in.xml.flat",
@@ -360,20 +360,20 @@
         "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/res/color/switch_thumb_material_dark.xml"
     },
     {
-        "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_black_16dp.png.flat",
-        "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/res/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png"
-    },
-    {
         "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
         "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/res/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/layout_abc_search_view.xml.flat",
-        "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/res/layout/abc_search_view.xml"
+        "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_black_16dp.png.flat",
+        "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/res/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png"
     },
     {
         "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/layout_abc_search_view.xml.flat",
+        "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/res/layout/abc_search_view.xml"
     },
     {
         "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
@@ -444,12 +444,12 @@
         "source": "/Users/yunji/Downloads/SafeGo2 2/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
-        "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/res/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_custom.xml.flat",
         "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/79c43f9bd74339c8fdb38bb2b875c051/res/layout/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
+        "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/res/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
