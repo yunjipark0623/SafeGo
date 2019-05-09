@@ -1,25 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/yunji/Desktop/safego2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
-                    "source": "/Users/yunji/Downloads/SafeGo2 2/app/src/main/res/values/font_certs.xml",
+                    "source": "/Users/yunji/Desktop/safego2/app/src/main/res/values/preloaded_fonts.xml",
                     "from": {
-                        "startLines": "2,6,11",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "57,263,1993",
-                        "endLines": "5,10,15",
-                        "endColumns": "12,19,19",
-                        "endOffsets": "257,1987,3582"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "288"
                     },
                     "to": {
-                        "startLines": "2,6,11",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "150,352,2077",
-                        "endLines": "5,10,15",
-                        "endColumns": "12,19,19",
-                        "endOffsets": "347,2072,3662"
+                        "startLines": "16",
+                        "startColumns": "4",
+                        "startOffsets": "3667",
+                        "endLines": "21",
+                        "endColumns": "12",
+                        "endOffsets": "3893"
                     }
                 },
                 {
@@ -61,25 +61,6 @@
                     }
                 },
                 {
-                    "source": "/Users/yunji/Downloads/SafeGo2 2/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endLines": "8",
-                        "endColumns": "12",
-                        "endOffsets": "376"
-                    },
-                    "to": {
-                        "startLines": "621",
-                        "startColumns": "4",
-                        "startOffsets": "40943",
-                        "endLines": "626",
-                        "endColumns": "12",
-                        "endOffsets": "41257"
-                    }
-                },
-                {
                     "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/5c06c4512498fede3103f7a6e1b785bc/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,171,172,176,177,178,6,13,56,88,125",
@@ -96,6 +77,23 @@
                         "endLines": "256,257,357,358,359,360,361,362,363,471,472,473,474,475,476,477,478,479,480,481,482,483,484,485,498,499,507,508,520,521,522,523,524,528,550,611,2303,2307,2309,2315,2317,2680,2681,3748,3948,3980,4018,4025",
                         "endColumns": "68,62,69,67,71,69,60,73,72,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,34,34,49,60,56,33,34,34,69,70,116,12,109,12,128,71,66,24,24,24,24,24",
                         "endOffsets": "16597,16660,23512,23580,23652,23722,23783,23857,23930,30815,30876,30938,31002,31064,31125,31193,31293,31353,31419,31492,31561,31618,31670,31732,32469,32545,32925,32960,33550,33611,33668,33702,33737,33915,35196,40219,153233,153434,153610,153994,154189,178534,178601,239809,258057,260122,262084,262461"
+                    }
+                },
+                {
+                    "source": "/Users/yunji/Desktop/safego2/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "1,8,4,7,6,9,5",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "17,330,129,288,240,379,200",
+                        "endColumns": "49,47,69,40,46,53,38",
+                        "endOffsets": "62,373,194,324,282,428,234"
+                    },
+                    "to": {
+                        "startLines": "590,597,598,601,602,608,609",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "37959,38770,38818,39117,39158,40007,40061",
+                        "endColumns": "49,47,69,40,46,53,38",
+                        "endOffsets": "38004,38813,38883,39153,39200,40056,40095"
                     }
                 },
                 {
@@ -156,22 +154,20 @@
                     }
                 },
                 {
-                    "source": "/Users/yunji/Downloads/SafeGo2 2/app/src/main/res/values/preloaded_fonts.xml",
+                    "source": "/Users/yunji/Desktop/safego2/app/src/main/res/values/colors.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endLines": "7",
-                        "endColumns": "12",
-                        "endOffsets": "288"
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "157,57,105",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "198,99,151"
                     },
                     "to": {
-                        "startLines": "16",
-                        "startColumns": "4",
-                        "startOffsets": "3667",
-                        "endLines": "21",
-                        "endColumns": "12",
-                        "endOffsets": "3893"
+                        "startLines": "212,213,214",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "13721,13767,13814",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "13762,13809,13860"
                     }
                 },
                 {
@@ -192,37 +188,22 @@
                     }
                 },
                 {
-                    "source": "/Users/yunji/Downloads/SafeGo2 2/app/src/main/res/values/colors.xml",
+                    "source": "/Users/yunji/Desktop/safego2/app/src/main/res/values/font_certs.xml",
                     "from": {
-                        "startLines": "4,2,3",
+                        "startLines": "2,6,11",
                         "startColumns": "4,4,4",
-                        "startOffsets": "157,57,105",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "198,99,151"
+                        "startOffsets": "57,263,1993",
+                        "endLines": "5,10,15",
+                        "endColumns": "12,19,19",
+                        "endOffsets": "257,1987,3582"
                     },
                     "to": {
-                        "startLines": "212,213,214",
+                        "startLines": "2,6,11",
                         "startColumns": "4,4,4",
-                        "startOffsets": "13721,13767,13814",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "13762,13809,13860"
-                    }
-                },
-                {
-                    "source": "/Users/yunji/Downloads/SafeGo2 2/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "1,8,4,7,6,9,5",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "17,330,129,288,240,379,200",
-                        "endColumns": "49,47,69,40,46,53,38",
-                        "endOffsets": "62,373,194,324,282,428,234"
-                    },
-                    "to": {
-                        "startLines": "590,597,598,601,602,608,609",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "37959,38770,38818,39117,39158,40007,40061",
-                        "endColumns": "49,47,69,40,46,53,38",
-                        "endOffsets": "38004,38813,38883,39153,39200,40056,40095"
+                        "startOffsets": "150,352,2077",
+                        "endLines": "5,10,15",
+                        "endColumns": "12,19,19",
+                        "endOffsets": "347,2072,3662"
                     }
                 },
                 {
@@ -259,6 +240,25 @@
                         "startOffsets": "32755,33085,33224,33271,33326,33920,33974,34026,34075,34136",
                         "endColumns": "39,42,46,54,44,53,51,48,60,49",
                         "endOffsets": "32790,33123,33266,33321,33366,33969,34021,34070,34131,34181"
+                    }
+                },
+                {
+                    "source": "/Users/yunji/Desktop/safego2/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "376"
+                    },
+                    "to": {
+                        "startLines": "621",
+                        "startColumns": "4",
+                        "startOffsets": "40943",
+                        "endLines": "626",
+                        "endColumns": "12",
+                        "endOffsets": "41257"
                     }
                 }
             ]

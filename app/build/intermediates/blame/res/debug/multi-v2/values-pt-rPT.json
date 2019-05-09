@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/yunji/Downloads/SafeGo2 2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rPT/values-pt-rPT.xml",
+            "outputFile": "/Users/yunji/Desktop/safego2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rPT/values-pt-rPT.xml",
             "map": [
                 {
                     "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/5c06c4512498fede3103f7a6e1b785bc/res/values-pt-rPT/values-pt-rPT.xml",
