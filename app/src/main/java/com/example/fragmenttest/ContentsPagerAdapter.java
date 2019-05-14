@@ -27,12 +27,12 @@ public class ContentsPagerAdapter extends FragmentStatePagerAdapter{
         switch (position) {
 
             case 0:
-                HowTo howTo = new HowTo();
-                return howTo;
-
-            case 1:
                 Instrument_Panel instrument_Panel = new Instrument_Panel();
                 return instrument_Panel;
+
+            case 1:
+                HowTo howTo = new HowTo();
+                return howTo;
 
             case 2:
                 Horn horn = new Horn();

@@ -2,6 +2,7 @@ package com.example.fragmenttest;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.SystemClock;
@@ -94,10 +95,11 @@ public class MainActivity extends AppCompatActivity{
         mContext = getApplicationContext();
         mTabLayout = (TabLayout) findViewById(R.id.tabLayout);
 
-        mTabLayout.addTab(mTabLayout.newTab().setCustomView(createTabView(R.drawable.round_star_black_48)));
         mTabLayout.addTab(mTabLayout.newTab().setCustomView(createTabView(R.drawable.round_dashboard_black_48)));
+        mTabLayout.addTab(mTabLayout.newTab().setCustomView(createTabView(R.drawable.round_star_black_48)));
         mTabLayout.addTab(mTabLayout.newTab().setCustomView(createTabView(R.drawable.round_volume_up_black_48)));
         mTabLayout.addTab(mTabLayout.newTab().setCustomView(createTabView(R.drawable.round_bluetooth_black_48)));
+//        mTabLayout.addTab(mTabLayout.newTab().setCustomView(createTabView(R.drawable.community)));
         mTabLayout.addTab(mTabLayout.newTab().setCustomView(createTabView(R.drawable.round_contact_support_black_48)));
 //
         mViewPager = (ViewPager) findViewById(R.id.pager_content);
@@ -117,7 +119,6 @@ public class MainActivity extends AppCompatActivity{
 
             @Override
             public void onTabUnselected(TabLayout.Tab tab) {
-
             }
 
             @Override
