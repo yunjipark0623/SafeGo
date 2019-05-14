@@ -1,4 +1,4 @@
-#Thu May 09 18:17:59 KST 2019
+#Tue May 14 23:22:58 KST 2019
 base.0=/Users/yunji/Desktop/safego2/app/build/intermediates/dex/debug/mergeDexDebug/out
 path.0=classes.dex
 renamed.0=classes.dex

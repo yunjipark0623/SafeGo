@@ -92,7 +92,7 @@ public class HowTo extends Fragment {
         ImageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(("http://www.seqway.com/media/1959/25265-00001_ac-ones1-um_web.pdf")));
+                Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(("http://safego34700134.files.wordpress.com/2019/05/ninebot-1.pdf")));
                 startActivity(myIntent);
             }
         });
@@ -100,7 +100,7 @@ public class HowTo extends Fragment {
         ImageView2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(("http://www.seqway.com/media/1959/25265-00001_ac-ones1-um_web.pdf")));
+                Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(("http://safego34700134.files.wordpress.com/2019/05/mini.pdf")));
                 startActivity(myIntent);
             }
         });
