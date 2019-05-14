@@ -1,14 +1,20 @@
 package com.example.fragmenttest.Fragment;
 
 import android.content.Context;
+import android.graphics.Color;
+import android.media.AudioManager;
+import android.media.SoundPool;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 
+import com.example.fragmenttest.MainActivity;
 import com.example.fragmenttest.R;
 
 /**
@@ -19,6 +25,10 @@ import com.example.fragmenttest.R;
  * create an instance of this fragment.
  */
 public class Horn extends Fragment {
+
+    SoundPool sound;
+    int soundId;
+
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -63,7 +73,20 @@ public class Horn extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_horn, container, false);
+        ViewGroup rootView = (ViewGroup)inflater.inflate(R.layout.fragment_horn,container,false);
+        Context context = getContext();
+
+        sound = new SoundPool(5, AudioManager.STREAM_MUSIC, 0);
+        soundId = sound.load(context, R.raw.horn, 1);
+        ImageView imageView = (ImageView) rootView.findViewById(R.id.horn);
+
+        imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                sound.play(soundId, 1f, 1f, 0, 0, 1f);
+            }
+        });
+        return rootView;
     }
 
     // TODO: Rename method, update argument and hook method into UI event
