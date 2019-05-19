@@ -1020,6 +1020,7 @@ drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable icon
 drawable mini
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
@@ -1367,8 +1368,9 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout splash
 layout support_simple_spinner_dropdown_item
-mipmap ic_launcher
-mipmap ic_launcher_round
+mipmap ic_launcher_foreground
+mipmap icon
+mipmap icon_round
 raw horn
 string abc_action_bar_home_description
 string abc_action_bar_up_description

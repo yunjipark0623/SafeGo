@@ -87,9 +87,9 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/yunji/.gradl
 	android:label
 		ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:15:9-41
 	android:roundIcon
-		ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:16:9-54
+		ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:16:9-47
 	android:icon
-		ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:14:9-43
+		ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:14:9-36
 	android:allowBackup
 		ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:13:9-35
 	android:theme
