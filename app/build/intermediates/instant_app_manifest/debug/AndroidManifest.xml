@@ -24,6 +24,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <activity
+            android:name="com.example.fragmenttest.SplashActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
         <activity android:name="com.example.fragmenttest.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

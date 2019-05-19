@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:2:1-31:12
+ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:2:1-34:12
 MERGED from [com.android.support:design:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/9e43914bf2bbc6d5e95d599a4a23addf/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/yunji/.gradle/caches/transforms-2/files-2.1/7eca56daf817f634b94c1e3b32d5cf47/AndroidManifest.xml:2:1-11:12
@@ -37,20 +37,20 @@ MERGED from [com.android.support:interpolator:28.0.0] /Users/yunji/.gradle/cache
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/yunji/.gradle/caches/transforms-2/files-2.1/d7fabda853b238baa071bd2694b1440b/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/yunji/.gradle/caches/transforms-2/files-2.1/9876e70c16dd051fa27a1a2029cd8179/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /Users/yunji/.gradle/caches/transforms-2/files-2.1/7b8c1f327606a9b4f469fc13920014f5/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:2:1-34:12
 	package
 		ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:3:5-39
 		INJECTED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml
-		ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:2:1-31:12
+		ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:2:1-34:12
 		INJECTED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml
-		ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:2:1-31:12
+		ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:2:1-34:12
 		INJECTED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:2:11-69
@@ -71,7 +71,7 @@ ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:9:5-74
 	android:name
 		ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:9:22-71
 application
-ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:12:5-29:19
+ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:12:5-32:19
 MERGED from [com.android.support:design:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/9e43914bf2bbc6d5e95d599a4a23addf/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/9e43914bf2bbc6d5e95d599a4a23addf/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/yunji/.gradle/caches/transforms-2/files-2.1/7eca56daf817f634b94c1e3b32d5cf47/AndroidManifest.xml:9:5-20
@@ -94,26 +94,32 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/yunji/.gradl
 		ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:13:9-35
 	android:theme
 		ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:18:9-65
+activity#com.example.fragmenttest.SplashActivity
+ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:19:9-20:74
+	android:theme
+		ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:20:13-71
+	android:name
+		ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:19:19-49
 activity#com.example.fragmenttest.MainActivity
-ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:19:9-25:20
+ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:21:9-28:20
 	android:name
-		ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:19:19-47
+		ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:21:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:20:13-24:29
+ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
-ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:21:17-69
+ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:21:25-66
+		ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:23:17-77
+ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:23:27-74
+		ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:26:27-74
 meta-data#preloaded_fonts
-ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:26:9-28:57
+ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:29:9-31:57
 	android:resource
-		ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:28:13-54
+		ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:31:13-54
 	android:name
-		ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:27:13-43
+		ADDED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml:30:13-43
 uses-sdk
 INJECTED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/yunji/Desktop/safego2/app/src/main/AndroidManifest.xml
