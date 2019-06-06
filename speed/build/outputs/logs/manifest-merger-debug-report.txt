@@ -1,39 +1,39 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml:2:1-38:12
+ADDED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml:2:1-38:12
 MERGED from [com.android.support:appcompat-v7:22.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/f18a82b989e2363ae203bc416d047e4b/AndroidManifest.xml:17:1-24:12
 MERGED from [com.melnykov:floatingactionbutton:1.3.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/928a7ce3cf456ec67b15c4a6b009f954/AndroidManifest.xml:2:1-14:12
 MERGED from [com.github.navasmdc:MaterialDesign:1.4] /Users/yunji/.gradle/caches/transforms-2/files-2.1/5b23e4ff952cb1335cd456f2866ce2f4/AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support:recyclerview-v7:21.0.3] /Users/yunji/.gradle/caches/transforms-2/files-2.1/69de6735fc1bda66a620db96466332b5/AndroidManifest.xml:14:4-20:12
 MERGED from [com.android.support:support-v4:22.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/74d51dca88aeecaf473f08ff77bdff12/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml:2:1-38:12
 	package
-		ADDED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml:4:5-34
-		INJECTED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml
-		INJECTED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml
+		ADDED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml:4:5-34
+		INJECTED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml
+		INJECTED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml
-		ADDED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml:2:1-38:12
-		INJECTED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml
+		INJECTED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml
+		ADDED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml:2:1-38:12
+		INJECTED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml
-		ADDED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml:2:1-38:12
-		INJECTED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml
+		INJECTED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml
+		ADDED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml:2:1-38:12
+		INJECTED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml:2:11-69
 	android:installLocation
-		ADDED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml:3:5-35
+		ADDED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml:3:5-35
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml:6:5-78
+ADDED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml:6:5-78
 	android:name
-		ADDED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml:6:22-76
+		ADDED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml:6:22-76
 application
-ADDED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml:8:5-36:19
+ADDED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml:8:5-36:19
 MERGED from [com.android.support:appcompat-v7:22.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/f18a82b989e2363ae203bc416d047e4b/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:22.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/f18a82b989e2363ae203bc416d047e4b/AndroidManifest.xml:22:5-20
 MERGED from [com.melnykov:floatingactionbutton:1.3.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/928a7ce3cf456ec67b15c4a6b009f954/AndroidManifest.xml:12:5-20
@@ -45,55 +45,55 @@ MERGED from [com.android.support:recyclerview-v7:21.0.3] /Users/yunji/.gradle/ca
 MERGED from [com.android.support:support-v4:22.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/74d51dca88aeecaf473f08ff77bdff12/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:22.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/74d51dca88aeecaf473f08ff77bdff12/AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml:11:9-41
+		ADDED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml:11:9-41
 	android:icon
-		ADDED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml:10:9-43
+		ADDED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml:9:9-35
+		ADDED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml:12:9-40
+		ADDED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml:12:9-40
 activity#fly.speedmeter.grub.MainActivity
-ADDED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml:14:9-23:20
+ADDED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml:14:9-23:20
 	android:screenOrientation
-		ADDED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml:17:13-49
+		ADDED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml:17:13-49
 	android:label
-		ADDED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml:16:13-45
+		ADDED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml:16:13-45
 	android:name
-		ADDED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml:15:13-41
+		ADDED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml:15:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml:18:13-22:29
+ADDED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml:19:17-69
+ADDED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml:19:25-66
+		ADDED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml:21:17-77
+ADDED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml:21:27-74
+		ADDED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml:21:27-74
 activity#fly.speedmeter.grub.Settings
-ADDED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml:25:9-33:20
+ADDED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml:25:9-33:20
 	android:screenOrientation
-		ADDED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml:28:13-49
+		ADDED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml:28:13-49
 	android:parentActivityName
-		ADDED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml:29:13-55
+		ADDED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml:29:13-55
 	android:label
-		ADDED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml:27:13-45
+		ADDED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml:27:13-45
 	android:name
-		ADDED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml:26:13-37
+		ADDED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml:26:13-37
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml:30:13-32:49
+ADDED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml:30:13-32:49
 	android:value
-		ADDED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml:32:17-46
+		ADDED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml:32:17-46
 	android:name
-		ADDED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml:31:17-63
+		ADDED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml:31:17-63
 service#fly.speedmeter.grub.GpsServices
-ADDED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml:35:9-47
+ADDED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml:35:9-47
 	android:name
-		ADDED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml:35:18-45
+		ADDED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml:35:18-45
 uses-sdk
-INJECTED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml
-INJECTED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml
+INJECTED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml
+INJECTED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml
 MERGED from [com.android.support:appcompat-v7:22.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/f18a82b989e2363ae203bc416d047e4b/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:appcompat-v7:22.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/f18a82b989e2363ae203bc416d047e4b/AndroidManifest.xml:20:5-43
 MERGED from [com.melnykov:floatingactionbutton:1.3.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/928a7ce3cf456ec67b15c4a6b009f954/AndroidManifest.xml:8:5-10:41
@@ -104,16 +104,16 @@ MERGED from [com.android.support:recyclerview-v7:21.0.3] /Users/yunji/.gradle/ca
 MERGED from [com.android.support:recyclerview-v7:21.0.3] /Users/yunji/.gradle/caches/transforms-2/files-2.1/69de6735fc1bda66a620db96466332b5/AndroidManifest.xml:15:5-42
 MERGED from [com.android.support:support-v4:22.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/74d51dca88aeecaf473f08ff77bdff12/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:22.0.0] /Users/yunji/.gradle/caches/transforms-2/files-2.1/74d51dca88aeecaf473f08ff77bdff12/AndroidManifest.xml:20:5-43
-INJECTED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml
-INJECTED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml
+INJECTED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml
+INJECTED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml
-		ADDED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml
-		INJECTED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml
+		INJECTED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml
+		ADDED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml
+		INJECTED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml
-		ADDED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml
-		INJECTED from /Users/yunji/Desktop/safego2/speed/src/main/AndroidManifest.xml
+		INJECTED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml
+		ADDED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml
+		INJECTED from /Users/yunji/Downloads/safego/speed/src/main/AndroidManifest.xml
 activity#android.support.v7.widget.TestActivity
 ADDED from [com.android.support:recyclerview-v7:21.0.3] /Users/yunji/.gradle/caches/transforms-2/files-2.1/69de6735fc1bda66a620db96466332b5/AndroidManifest.xml:18:9-115
 	android:label

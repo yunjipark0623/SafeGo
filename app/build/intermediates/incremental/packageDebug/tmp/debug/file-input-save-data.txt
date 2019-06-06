@@ -1,7 +1,7 @@
 #Internal package file, do not edit.
-#Thu May 09 18:17:59 KST 2019
+#Wed Jun 05 13:21:54 KST 2019
 0.baseType=DIRECTORY
-0.base=/Users/yunji/Desktop/safego2/app/build/intermediates/dex/debug/mergeDexDebug/out
+0.base=/Users/yunji/Downloads/safego/app/build/intermediates/dex/debug/mergeDexDebug/out
 0.path=classes.dex
 0.set=DEX
 count=1

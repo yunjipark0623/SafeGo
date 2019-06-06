@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
-    api-level="24"
+    abi="x86_64,x86"
+    api-level="29"
     build-mode="FULL"
     density="420dpi"
     format="10"
     plugin-version="3.4.0"
-    timestamp="1557244977098"
+    timestamp="1559669206887"
     token="6539567850303591815"
     verifier="FULL_BUILD_REQUESTED" >
 
@@ -18,7 +18,7 @@
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="660" />
     <task
         name="verifier"
         duration="0" />

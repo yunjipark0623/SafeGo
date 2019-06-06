@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/yunji/Desktop/safego2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "/Users/yunji/Downloads/safego/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
                     "source": "/Users/yunji/.gradle/caches/transforms-2/files-2.1/621efeb89184ce901764521527b03251/res/values-v24/values-v24.xml",

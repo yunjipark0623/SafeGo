@@ -1,91 +1,61 @@
 package com.example.fragmenttest.Fragment;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
 
+import com.example.fragmenttest.BluetoothRecyclerAdapter;
+import com.example.fragmenttest.BoardActivity;
 import com.example.fragmenttest.R;
+import com.example.fragmenttest.vo.BluetoothVO;
 
-/**
- * A simple {@link Fragment} subclass.
- * Activities that contain this fragment must implement the
- * to handle interaction events.
- * Use the {@link Bluetooth#newInstance} factory method to
- * create an instance of this fragment.
- */
+import java.util.ArrayList;
+import java.util.List;
+
 public class Bluetooth extends Fragment {
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
 
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
-
-
-    public Bluetooth() {
-        // Required empty public constructor
-    }
-
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment Bluetooth.
-     */
-    // TODO: Rename and change types and number of parameters
-    public static Bluetooth newInstance(String param1, String param2) {
-        Bluetooth fragment = new Bluetooth();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
-        return fragment;
-    }
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-    }
+    private RecyclerView recyclerView;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_bluetooth, container, false);
+        View view = inflater.inflate(R.layout.fragment_bluetooth, container, false);
+        recyclerView = view.findViewById(R.id.recycler_view);
+        List<BluetoothVO> bluetoothVOList = new ArrayList<>();
+        for(int i = 0; i < 5; i++) {
+            BluetoothVO bluetoothVO = new BluetoothVO();
+            bluetoothVO.setTitle("ㅎㅇ" + i);
+            bluetoothVO.setAuthor("윤걱");
+            bluetoothVO.setCount(0);
+            bluetoothVO.setDate("2016년");
+            bluetoothVOList.add(bluetoothVO);
+        }
+
+        // 어댑터를 만들어줘
+        BluetoothRecyclerAdapter bluetoothRecyclerAdapter = new BluetoothRecyclerAdapter(bluetoothVOList, new BluetoothRecyclerAdapter.Callback() {
+            @Override
+            public void run(int position, BluetoothVO bluetoothVO) {
+                Intent intent = new Intent(getContext(), BoardActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        // 나열되는 방향? 가튼거 예를들면 수평으로 나열 수직으로 나열이나 그런걸 결정하는거
+        recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
+
+        // 어댑터를 바인딩합니다.
+        recyclerView.setAdapter(bluetoothRecyclerAdapter);
+        return view;
     }
-
-    // TODO: Rename method, update argument and hook method into UI event
-    public void onButtonPressed(Uri uri) {
-
-    }
-
-    @Override
-    public void onAttach(Context context) {
-        super.onAttach(context);
-    }
-
-    @Override
-    public void onDetach() {
-        super.onDetach();
-    }
-
-    /**
-     * This interface must be implemented by activities that contain this
-     * fragment to allow an interaction in this fragment to be communicated
-     * to the activity and potentially other fragments contained in that
-     * activity.
-     * <p>
-     * See the Android Training lesson <a href=
-     * "http://developer.android.com/training/basics/fragments/communicating.html"
-     * >Communicating with Other Fragments</a> for more information.
-     */
 
 }

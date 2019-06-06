@@ -23,6 +23,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <activity android:name="com.example.fragmenttest.BoardActivity" />
         <activity
             android:name="com.example.fragmenttest.SplashActivity"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />

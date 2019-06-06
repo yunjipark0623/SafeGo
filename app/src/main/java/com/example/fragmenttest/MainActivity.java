@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity{
     private SharedPreferences sharedPreferences;
     private Chronometer time;
 
+
     public static Data getData() {
         return data;
     }
@@ -50,6 +51,7 @@ public class MainActivity extends AppCompatActivity{
         Intent intent = new Intent(this, SplashActivity.class);
         startActivity(intent);
         setfragement();
+
 
 //        test2();
     }
@@ -101,8 +103,7 @@ public class MainActivity extends AppCompatActivity{
         mTabLayout.addTab(mTabLayout.newTab().setCustomView(createTabView(R.drawable.round_dashboard_black_48)));
         mTabLayout.addTab(mTabLayout.newTab().setCustomView(createTabView(R.drawable.round_star_black_48)));
         mTabLayout.addTab(mTabLayout.newTab().setCustomView(createTabView(R.drawable.round_volume_up_black_48)));
-        mTabLayout.addTab(mTabLayout.newTab().setCustomView(createTabView(R.drawable.round_bluetooth_black_48)));
-//        mTabLayout.addTab(mTabLayout.newTab().setCustomView(createTabView(R.drawable.community)));
+        mTabLayout.addTab(mTabLayout.newTab().setCustomView(createTabView(R.drawable.community)));
         mTabLayout.addTab(mTabLayout.newTab().setCustomView(createTabView(R.drawable.round_contact_support_black_48)));
 //
         mViewPager = (ViewPager) findViewById(R.id.pager_content);
