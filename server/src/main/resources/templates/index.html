@@ -1,0 +1,17 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+
+<html lang="ko" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${title}"></title>
+</head>
+<body>
+<div class="contents">
+    <div th:each="item: ${list}">
+        <span>게시글 제목: </span>
+        <span th:text="${item.getTitle()}"></span>
+    </div>
+</div>
+</body>
+</html>
