@@ -36,9 +36,8 @@ public class BluetoothRecyclerAdapter extends RecyclerView.Adapter<BluetoothRecy
     @Override
     public void onBindViewHolder(@NonNull BluetoothViewHolder bluetoothViewHolder, final int i) {
         bluetoothViewHolder.title.setText(bluetoothVOList.get(i).getTitle() + "gd");
-        bluetoothViewHolder.author.setText(bluetoothVOList.get(i).getAuthor());
         bluetoothViewHolder.date.setText(bluetoothVOList.get(i).getDate());
-        bluetoothViewHolder.count.setText(String.valueOf(bluetoothVOList.get(i).getCount()));
+//        bluetoothViewHolder.count.setText(String.valueOf(bluetoothVOList.get(i).getCount()));
         bluetoothViewHolder.boardItem.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -53,15 +52,14 @@ public class BluetoothRecyclerAdapter extends RecyclerView.Adapter<BluetoothRecy
     }
 
     public class BluetoothViewHolder extends RecyclerView.ViewHolder {
-        public TextView title, author, date, count;
+        public TextView title, date, count;
         public LinearLayout boardItem;
         public BluetoothViewHolder(@NonNull View itemView) {
             super(itemView);
             boardItem = itemView.findViewById(R.id.layout_item_button);
             title = itemView.findViewById(R.id.textTitle);
-            author = itemView.findViewById(R.id.text_author);
             date = itemView.findViewById(R.id.text_date);
-            count = itemView.findViewById(R.id.text_count);
+//            count = itemView.findViewById(R.id.text_count);
         }
     }
 }

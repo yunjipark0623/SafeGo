@@ -3,23 +3,29 @@ package com.example.fragmenttest.Fragment;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.annotation.RequiresPermission;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ListView;
 
 import com.example.fragmenttest.BluetoothRecyclerAdapter;
 import com.example.fragmenttest.BoardActivity;
 import com.example.fragmenttest.R;
+import com.example.fragmenttest.Write;
 import com.example.fragmenttest.vo.BluetoothVO;
 
 import java.util.ArrayList;
 import java.util.List;
+
+
 
 public class Bluetooth extends Fragment {
 
@@ -32,11 +38,20 @@ public class Bluetooth extends Fragment {
         View view = inflater.inflate(R.layout.fragment_bluetooth, container, false);
         recyclerView = view.findViewById(R.id.recycler_view);
         List<BluetoothVO> bluetoothVOList = new ArrayList<>();
+
+        Button button = (Button)view.findViewById(R.id.Wirte); /*페이지 전환버튼*/
+
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Write.class);
+                startActivity(intent);//액티비티 띄우기
+            }
+        });
+
         for(int i = 0; i < 5; i++) {
             BluetoothVO bluetoothVO = new BluetoothVO();
             bluetoothVO.setTitle("ㅎㅇ" + i);
-            bluetoothVO.setAuthor("윤걱");
-            bluetoothVO.setCount(0);
             bluetoothVO.setDate("2016년");
             bluetoothVOList.add(bluetoothVO);
         }
@@ -56,6 +71,10 @@ public class Bluetooth extends Fragment {
         // 어댑터를 바인딩합니다.
         recyclerView.setAdapter(bluetoothRecyclerAdapter);
         return view;
+
+
     }
+
+
 
 }

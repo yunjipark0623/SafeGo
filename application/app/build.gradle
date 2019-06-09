@@ -4,8 +4,7 @@ android {
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.example.fragmenttest"
-        minSdkVersion 19
-        targetSdkVersion 28
+        minSdkVersion 23
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${title}"></title>
+</head>
+<body>
+<div id="box">
+    <div id="writeBox">
+        <form id="imageForm" method="POST" accept-charset="UTF-8" enctype="multipart/form-data" action="#" th:action="@{/insertContent}" th:object="${board}">
+            <div class="wrap">
+                <input id="title" type="text" name="title" placeholder="제목" th:text="${title}">
+            </div>
+            <div class="text">
+                <textarea id="content" name="content" wrap="physical" th:text="${content}"></textarea>
+            </div>
+            <button id="btn_submit" type="submit" name="write">작성하기</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

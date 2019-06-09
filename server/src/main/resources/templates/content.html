@@ -23,7 +23,9 @@
 <div class="comment">
     <div th:each="item: ${list}">
         <div>
+            <span>댓글 내용</span>
             <span th:text="${item.getContent()}"></span>
+            <span>댓글 작성시간</span>
             <span th:text="${item.getWritetime()}"></span>
         </div>
     </div>

@@ -6,7 +6,8 @@ use safego;
 CREATE TABLE board (
     id int(11) PRIMARY KEY NOT NULL AUTO_INCREMENT,
     title varchar(32) NOT NULL,
-    content mediumtext NOT NULL
+    content mediumtext NOT NULL,
+    write_time timestamp default CURRENT_TIMESTAMP not null
 );
 
 #댓글
