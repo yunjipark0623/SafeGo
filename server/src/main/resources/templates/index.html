@@ -9,8 +9,10 @@
 <body>
 <div class="contents">
     <div th:each="item: ${list}">
-        <span>게시글 제목: </span>
-        <span th:text="${item.getTitle()}"></span>
+        <a th:href="@{'/content/' + ${item.getId()}}">
+            <span>게시글 제목: </span>
+            <span th:text="${item.getTitle()}"></span>
+        </a>
     </div>
 </div>
 </body>
