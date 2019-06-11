@@ -59,7 +59,7 @@ public class SampleController {
     @GetMapping("/write")
     public ModelAndView write() {
         ModelAndView modelAndView = new ModelAndView("write");
-        modelAndView.addObject("title", "게시글 적기");
+        modelAndView.addObject("headTitle", "게시글 적기");
         return modelAndView;
     }
 
@@ -78,13 +78,13 @@ public class SampleController {
     }
 
     @PostMapping("/insertComment")
-    public String insertComment(@RequestParam Integer board_id, @RequestParam String content, Model model) {
+    public String insertComment(@RequestParam Integer board_id, String wcontent) {
         Comment comment = Comment.builder()
-                .content(content)
+                .content(wcontent)
                 .board(boardRepository.findById(board_id).get())
                 .build();
         Comment entity = repositoryService.addComment(comment);
-        model.addAttribute("commentResult", entity);
+//        model.addAttribute("commentResult", entity);
         return "redirect:/content/" + board_id;
     }
 }

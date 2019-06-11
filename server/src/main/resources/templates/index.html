@@ -4,16 +4,30 @@
       xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title th:text="${title}"></title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Adamina&display=swap" rel="stylesheet">
 </head>
 <body>
+<!-- 상단바 -->
+<header id="header">SAFE GO</header>
+
 <div class="contents">
     <div th:each="item: ${list}">
-        <a th:href="@{'/content/' + ${item.getId()}}">
-            <span>게시글 제목: </span>
-            <span th:text="${item.getTitle()}"></span>
-        </a>
+        <div class="list">
+            <a th:href="@{'/content/' + ${item.getId()}}">
+                <span th:text="${item.getId()}" class="board_id"></span>
+                <span th:text="${item.getTitle()}" class="board_title"></span>
+                <span th:text="${item.getWritetime()}"class="board_time"></span>
+            </a>
+        </div>
     </div>
+    <a th:href="@{'/write'}">
+        <button id="btn_write" type="submit" name="write">글쓰기</button>
+    </a>
 </div>
+<script src="index.js"></script>
 </body>
 </html>

@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+#header {
+    font-family: 'Adamina', serif;
+    background-color: #000000;
+    text-align: center;
+    color: white;
+    height: 55px;
+    line-height: 55px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#box {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #727272;
+}
+
+#title {
+    font-size: 20px;
+    padding: 10px 15px;
+    border-bottom: 1px solid #000000;
+}
+
+#content {
+    padding: 15px 15px;
+    border-bottom: 1px solid #000000;
+    word-break: break-all;
+}
+
+.list {
+    text-align: right;
+}
+
+#btn_submit {
+    border: 0;
+    margin-top: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 13px;
+    padding: 7px 18px
+}
+
+.comment {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#commentForm {
+    margin-bottom: 30px;
+}
+
+.write_comment {
+    text-align: center;
+}
+
+#wcomment {
+    border: 1px solid #727272;
+    width: 75%;
+    padding: 5px 10px;
+    font-size: 12px;
+    height: 55px;
+    word-break: break-word;
+}
+
+#wr_button {
+    border: 0;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 14px;
+    width: 70px;
+    height: 55px;
+    border-radius: 3px;
+    margin-left: 3px;
+}
+
+.commentList {
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.commentContent {
+    display: inline-block;
+    width: 65%;
+    word-break: break-word;
+}
+
+.commentTime {
+    float: right;
+}
+
+@media (min-width: 960px) {
+    #header {
+        height: 65px;
+        line-height: 65px;
+        font-size: 35px;
+        margin-bottom: 50px;
+    }
+
+    #box {
+        width: 60%;
+        padding-bottom: 50px;
+    }
+
+    #btn_submit {
+        font-size: 15px;
+    }
+
+    .comment {
+        width: 60%;
+        margin-top: 30px;
+    }
+
+    #wcomment {
+        width: 86%;
+        padding: 10px 15px;
+        font-size: 14px;
+        height: 70px;
+    }
+
+    #wr_button {
+        font-size: 16px;
+        width: 85px;
+        height: 70px;
+        margin-left: 5px;
+    }
+
+    .commentList {
+        padding: 10px 0px;
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+
+    .commentContent {
+        width: 75%;
+    }
+
+}
