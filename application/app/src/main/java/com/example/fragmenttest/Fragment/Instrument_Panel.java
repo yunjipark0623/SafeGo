@@ -15,6 +15,8 @@ import android.location.GpsStatus;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
+import android.media.AudioManager;
+import android.media.SoundPool;
 import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
@@ -26,6 +28,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.fragmenttest.Data;
@@ -49,6 +52,9 @@ public class Instrument_Panel extends Fragment implements LocationListener, GpsS
     private LocationManager mLocationManager;
     private GpsSatellite satellite;
     private TextView currentSpeed;
+
+    SoundPool sound;
+    int soundId;
 
     public static Data getData() {
         return data;
@@ -115,7 +121,22 @@ public class Instrument_Panel extends Fragment implements LocationListener, GpsS
         currentSpeed = view.findViewById(R.id.current_speed);
         sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getActivity().getApplicationContext());
         mLocationManager = (LocationManager) getActivity().getApplicationContext().getSystemService(Context.LOCATION_SERVICE);
+        Context context = getContext();
+
+        sound = new SoundPool(5, AudioManager.STREAM_MUSIC, 0);
+        soundId = sound.load(context, R.raw.horn, 1);
+        ImageView imageView = (ImageView) view.findViewById(R.id.horn);
+
+        imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                sound.play(soundId, 1f, 1f, 0, 0, 1f);
+            }
+        });
+
         return view;
+
+
     }
 
     private void test1() {

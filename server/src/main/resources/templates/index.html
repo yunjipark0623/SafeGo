@@ -20,14 +20,18 @@
             <a th:href="@{'/content/' + ${item.getId()}}">
                 <span th:text="${item.getId()}" class="board_id"></span>
                 <span th:text="${item.getTitle()}" class="board_title"></span>
-                <span th:text="${item.getWritetime()}"class="board_time"></span>
+                <span th:text="${#dates.format(item.getWritetime(), 'MM-dd HH:mm')}" class="board_time"></span>
             </a>
         </div>
     </div>
+<!--    <nav style="text-align: center;">-->
+<!--        <ul class="pagination"-->
+<!--            th:with="start=${T(Math).floor(boardList.number/10)*10 + 1},-->
+<!--                    last=(${start + 9 < boardList.totalPages ? start + 9 : boardList.totalPages})">-->
+
     <a th:href="@{'/write'}">
         <button id="btn_write" type="submit" name="write">글쓰기</button>
     </a>
 </div>
-<script src="index.js"></script>
 </body>
 </html>

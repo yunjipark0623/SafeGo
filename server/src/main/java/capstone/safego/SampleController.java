@@ -65,16 +65,13 @@ public class SampleController {
 
 //    게시글 날리기
     @PostMapping("/insertContent")
-    public ModelAndView insertContent(@ModelAttribute Board board) {
+    public String insertContent(@ModelAttribute Board board) {
         Board entity = repositoryService.addBoard(board);
-        ModelAndView modelAndView = new ModelAndView("index");
-        List<Board> boardList = boardRepository.findAll();
-        modelAndView.addObject("title", "첫 화면");
-        modelAndView.addObject("list", boardList);
-//        modelAndView.addObject("link", )
-        return modelAndView;
-//        model.addAttribute("result", entity);
-//        return "result";
+//        ModelAndView modelAndView = new ModelAndView("index");
+//        List<Board> boardList = boardRepository.findAll();
+//        modelAndView.addObject("title", "첫 화면");
+//        modelAndView.addObject("list", boardList);
+        return "redirect:/board";
     }
 
     @PostMapping("/insertComment")
@@ -84,7 +81,6 @@ public class SampleController {
                 .board(boardRepository.findById(board_id).get())
                 .build();
         Comment entity = repositoryService.addComment(comment);
-//        model.addAttribute("commentResult", entity);
         return "redirect:/content/" + board_id;
     }
 }

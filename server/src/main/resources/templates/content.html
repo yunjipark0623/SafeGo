@@ -39,7 +39,7 @@
     <div th:each="item: ${list}" class="commentList">
         <div class="eachComment">
             <span class="commentContent" th:text="${item.getContent()}"></span>
-            <span class="commentTime" th:text="${item.getWritetime()}"></span>
+            <span class="commentTime" th:text="${#dates.format(item.getWritetime(), 'MM-dd HH:mm')}"></span>
         </div>
     </div>
 </div>
